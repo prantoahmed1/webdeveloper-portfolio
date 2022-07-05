@@ -1,25 +1,37 @@
-body { font-family: font-family: 'Poppins', sans-serif;
-margin: 0;
+body { font-family: 'Poppins', sans-serif;
+margin:0 ;
 }
 h1 { font-size: 50px;}
 .orange-color { color:#FF5733;}
-section{display: flex;}
+section{display: flex;
+margin-bottom: 150px;}
 .half-width{
     width: 50%;
     padding-left: 2%;
     
 }
+p{
+
+    
+    margin-top: 10px;
+}
 .half-width img{
     width: 80%;
 }
-p{padding-left: 10px;
-padding-bottom: 10px;}
 .link-button{
     text-decoration: none;
     background-color: brown;
     padding: 10px 30px;
     border-radius: 5px;
     color: white;
+  
 }
 .tob-banner { background-image:url(top-banner.png) ;
 background-repeat: no-repeat;}
+
+.dream-big{
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
